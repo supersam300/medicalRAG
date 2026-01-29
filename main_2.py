@@ -17,7 +17,7 @@ common_remedies = {
     },
     "Cough & Common Cold": {
         "active_ingredients": ["Phenylephrine", "Chlorpheniramine", "Dextromethorphan"],
-        "common_brands": ["Sinarest", "Solvin Cold", "Wikoryl", "Ascoril", "Alex", "Honitus (Ayurvedic)"],
+        "common_brands": ["Sinarest", "Solvin Cold", "Wikoryl", "Ascoril", "Alex"],
         "notes": "Honitus and Koflet are popular herbal alternatives for throat irritation."
     },
     "Allergies & Sneezing": {
