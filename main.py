@@ -18,6 +18,8 @@ def messages(message, history, model):
         response += chunk.choices[0].delta.content or ''
 
         yield response
+    
+    return response    
 
 with gr.Blocks() as demo:
     model = gr.Dropdown(choices=["llama2-uncensored","llama3.2","gemma2:9b","dolphin-phi"],value="llama2-uncensored",label="Choose a model to chat with")
